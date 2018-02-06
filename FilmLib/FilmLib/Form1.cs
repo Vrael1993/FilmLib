@@ -21,5 +21,15 @@ namespace FilmLib
         {
 
         }
+
+        private void leaveProgram(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void minimizeWindow(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
